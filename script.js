@@ -91,11 +91,11 @@ for (var item in available_models) {
 }
 
 var current_model_name = "microsoft-coco";
-const API_KEY = "rf_U7AD2Mxh39N7jQ3B6cP8xAyufLH3";
+const API_KEY = "Ep6RLcSAYt6jF1JhACSy";
 const DETECT_API_KEY = "4l5zOVomQmkAqlTJPVKN";
 const CAMERA_ACCESS_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd1de273045d359cf9a_camera-access2.png";
 const LOADING_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd2210b56e0e33593c7_loading-camera2.gif";
-var current_model_version = 9;
+var current_model_version = 1;
 var webcamLoop = false;
 
 // when user scrolls past #model-select, stop webcam
